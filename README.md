@@ -38,7 +38,6 @@
 ---------
 
 
-https://qu.ax/BYJZG.jpg
 ----------
 
 ### `HOSTS PARA INSTALAR EL BOT`
