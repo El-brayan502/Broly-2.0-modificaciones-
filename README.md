@@ -1,6 +1,6 @@
 <h1 align="center">BROLYBOT_2.0</p>
 <p>
-        <img src= "https://files.catbox.moe/8jwka3.jpeg">
+        <img src= "https://qu.ax/BYJZG.jpg">
     </p>
     <p align="center">
         <a href="#"><img title="simple-whatsapp-bot" src="https://img.shields.io/badge/-SIMPLE--WHATSAPP--BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
@@ -38,7 +38,7 @@
 ---------
 
 
-
+https://qu.ax/BYJZG.jpg
 ----------
 
 ### `HOSTS PARA INSTALAR EL BOT`
