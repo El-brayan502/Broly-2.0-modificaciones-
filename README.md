@@ -1,4 +1,4 @@
-<h1 align="center">[☆] Nіᥒ᥆ Nᥲkᥲᥒ᥆ [☆]</p>
+<h1 align="center">BROLYBOT_2.0</p>
 <p>
         <img src= "https://files.catbox.moe/8jwka3.jpeg">
     </p>
