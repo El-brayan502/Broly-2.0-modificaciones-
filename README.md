@@ -1,3 +1,14 @@
+# 🌀 WHΛƬSΛPP X BØƬ 🌀  
+**NΛGIBØƬV2** – El Ɓøτ más potente y personalizable para WhatsApp. Comandos, stickers, música y mucho más. ¡Rápido, fácil y completamente insano!
+
+✨ **¡Deja una ⭐ si te gusta!**
+
+![Sticker NagiBot](https://example.com/nagibot-sticker.png)
+
+
+
+
+
 # **WhatsBot - El Bot de WhatsApp más Insano**
 
 ¡Prepárate para llevar tu experiencia en WhatsApp al siguiente nivel! **WhatsBot** es un bot multiusos, rápido, poderoso y 100% personalizable. Desde comandos divertidos hasta herramientas de moderación, este bot lo tiene *TODO*.
