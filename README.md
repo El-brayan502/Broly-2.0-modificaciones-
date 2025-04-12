@@ -99,9 +99,6 @@ yarn install && npm install
 ```bash
 npm start
 ```
-
-
-
 ---------
 <div align="center">
   <h1 align="center">Editor y Propietario de la Bot</h1>
