@@ -20,7 +20,7 @@
 
 <h1 align="center">ＮＡＧＩＢＯＴＶ２</p>
 <p>
-        <img src= "https://qu.ax/BYJZG.jpg">
+        <img src= "https://qu.ax/yWMgu.jpg">
     </p>
     <p align="center">
         <a href="#"><img title="simple-whatsapp-bot" src="https://img.shields.io/badge/-SIMPLE--WHATSAPP--BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
