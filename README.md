@@ -1,4 +1,3 @@
-
 # **WhatsBot - El Bot de WhatsApp más Insano**
 
 ¡Prepárate para llevar tu experiencia en WhatsApp al siguiente nivel! **WhatsBot** es un bot multiusos, rápido, poderoso y 100% personalizable. Desde comandos divertidos hasta herramientas de moderación, este bot lo tiene *TODO*.
