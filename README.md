@@ -18,7 +18,7 @@
 
 
 
-<h1 align="center">BROLYBOT_2.0</p>
+<h1 align="center">ＮＡＧＩＢＯＴＶ２</p>
 <p>
         <img src= "https://qu.ax/BYJZG.jpg">
     </p>
