@@ -26,7 +26,7 @@
 <p align="center">
 
 <p align="center">
-<a href="https://wa.me/51929838430"><img title="Author" src="https://img.shields.io/badge/NaufraZapp-black?style=for-the-badge&logo=whatsApp"></a>
+<a href="https://wa.me/51929838430"><img title="Author" src="https://img.shields.io/badge/CARLOS OFC-black?style=for-the-badge&logo=whatsApp"></a>
 <p/>
 
   
