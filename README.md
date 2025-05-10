@@ -45,11 +45,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/El-brayan502/NagiBotV2.git
-```
-
-```bash
-cd NagiBotV2
+git clone https://github.com/thecarlos19/black-clover-MD&& cd black-clover-MD
 ```
 
 ```bash
@@ -59,6 +55,8 @@ yarn install && npm install
 ```bash
 npm start
 ```
+> **Si después de poner el numero de WhatsApp, y sale letras en roja no se preocupe es normal**
+
 ---------
 
 
