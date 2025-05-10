@@ -64,8 +64,7 @@ npm start
     <img src="https://i.ibb.co/QrkLbP4/file.jpg" alt="" width="150"/> 
 </a> 
 
-## `EDITOR Y PROPIETARIO DEL BOT` 
-BrayanCrazzy ![preview](https://user-images.githubusercontent.com/100887441/156953527-740d110d-3ee5-41e5-9899-fd4d4b248d43.gif)
+## `𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕` 
+<a href="https://github.com/thecarlos19"><img src="https://github.com/thecarlos19.png" width="250" height="250" alt="thecarlos19"/></a>
 
-```bash
-ＮＡＧＩＢＯＴＶ２ ___ By BrayanCrazzy
+[© Powered By the-legends ⚡︎](https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w)
