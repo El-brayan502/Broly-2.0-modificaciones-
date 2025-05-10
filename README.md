@@ -34,7 +34,7 @@ href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="htt
 
 <div align=>
 
-#### **<img src="https://i.imgur.com/n1zo2wL.gif" width="30" height="30"/> NagiBot🐬 `Instalación manual por termux`**
+#### **<img src="https://i.imgur.com/n1zo2wL.gif" width="30" height="30"/> Black👹 `Instalación manual por termux`**
 > copie y peguen en termux uno por uno 
 ```bash
 termux-setup-storage
