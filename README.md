@@ -24,7 +24,7 @@
     </p>
     <p align="center">
 <p align="center">
-<a href="#"><img title="NyanBot" src="https://img.shields.io/badge/🐬𝐍𝐚𝐠𝐢𝐁𝐨𝐭 | 🔥𝘽𝙧𝙖𝙮𝙖𝙣𝟯𝟯𝟬🔥 | 𝐁𝐫𝐚𝐲𝐚𝐧 𝐲 𝐕𝐚𝐥𝐞𝐫𝐢𝐚💓-black?colorA=%23ff0000&colorB=%23000000&style=for-the-badge"></a>
+
   
 ---------
 
