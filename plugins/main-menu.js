@@ -28,12 +28,12 @@ let tags = {
 };
 
 const defaultMenu = {
-  before: `Hola %name ${ucapan()} , soy Nino Nakano bot
+  before: `Hola %name ${ucapan()} , soy duolingo-ai 
   
   
   *\`乂  I N F O  -  B O T\`*
 
-┌  ◦ *Cʀᴇᴀᴅᴏʀ:*  Jose Elber
+┌  ◦ *Cʀᴇᴀᴅᴏʀ:*  fantom330
 │  ◦ *Mᴏᴅᴏ:* Público
 │  ◦ *Bᴀɪʟᴇʏs:* Multi Device
 │  ◦ *Tɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* %muptime
