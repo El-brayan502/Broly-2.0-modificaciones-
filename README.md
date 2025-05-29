@@ -11,7 +11,7 @@
 
 ### *Aʟʙᴇʀᴛᴏ Y Asʜʟʏ🌹*
 
-![github stats](https://github-readme-stats.vercel.app/api?username=ALBERTO9883&show_icons=true&theme=chartreuse-dark)
+![github stats](https://github-readme-stats.vercel.app/api?username=El-brayan502&show_icons=true&theme=chartreuse-dark)
 
 ![github toplang](https://github-readme-stats.vercel.app/api/top-langs/?username=El-brayan502&layout=compact&theme=chartreuse-dark)
 
