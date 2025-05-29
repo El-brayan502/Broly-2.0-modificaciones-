@@ -4,3 +4,9 @@
 ### Hola 👋  
 ![Gato GitHub](https://octodex.github.com/images/codercat.jpg)  
 🐱 Me gustan los gatos y el código.
+
+### ¡Hola! 👋
+
+![Nagi Seishiro](https://media.tenor.com/your-gif-id.gif)
+
+Soy un entusiasta de *Blue Lock* y fan de Nagi Seishiro.
