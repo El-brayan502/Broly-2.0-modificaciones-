@@ -1,5 +1,5 @@
 
-### *Aϙᴜɪ́ Tᴇ Dᴇᴊᴏ Mɪ Nᴜ́ᴍᴇʀᴏ Pᴏʀ Sɪ Qᴜɪᴇʀᴇs Esᴄʀɪʙɪʀᴍᴇ :3*
+### *Aϙᴜɪ́ Tᴇ Dᴇᴊᴏ Mɪ Nᴜ́ᴍᴇʀᴏ Pᴏʀ Sɪ Qᴜɪᴇʀᴇs Esᴄʀɪʙɪʀᴍᴇ :)*
 
 <a href="http://wa.me/50231458537" target="blank"><img src="https://img.shields.io/badge/fantom-30302f?style=flat&logo=whatsapp" /></a>
 
