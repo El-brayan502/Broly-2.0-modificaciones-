@@ -13,8 +13,7 @@
 ![github toplang](https://github-readme-stats.vercel.app/api/top-langs/?username=El-brayan502&layout=compact&theme=chartreuse-dark)
 
 
-<details>
-  <summary>Bot Features <img src="https://cbsnews1.cbsistatic.com/hub/i/2017/10/17/b34c14c8-750e-4afa-838d-ba9da0a3b042/171016-nasa-gravitational-waves-article.gif" width="40px"></summary>
+<details> src="https://cbsnews1.cbsistatic.com/hub/i/2017/10/17/b34c14c8-750e-4afa-838d-ba9da0a3b042/171016-nasa-gravitational-waves-article.gif" width="40px"></summary>
 
 
 
