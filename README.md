@@ -9,7 +9,7 @@
 ## **FANTOM330**
 ![l4FGDAx6u3hthMhgI](https://user-images.githubusercontent.com/100887441/160191308-d1436996-62d4-4638-8993-4667a20cc15b.gif)
 
-### *Aʟʙᴇʀᴛᴏ Y Asʜʟʏ🌹*
+### *Bʀᴀʏᴀᴍ X ᴠᴀʟᴇʀɪᴀ*
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=El-brayan502&show_icons=true&theme=chartreuse-dark)
 
