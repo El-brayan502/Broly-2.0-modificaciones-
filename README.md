@@ -4,7 +4,7 @@
 <a href="http://wa.me/50231458537" target="blank"><img src="https://img.shields.io/badge/fantom-30302f?style=flat&logo=whatsapp" /></a>
 
 ## **FANTOM330**
-![l4FGDAx6u3hthMhgI](https://user-images.githubusercontent.com/100887441/160191308-d1436996-62d4-4638-8993-4667a20cc15b.gif)
+![amo a este gato _3](https://user-images.githubusercontent.com/100887441/191080666-2134186d-f4fa-4b95-a3df-d00f27041eac.gif)
 
 ### *Bʀᴀʏᴀᴍ X ᴠᴀʟᴇʀɪᴀ*
 
