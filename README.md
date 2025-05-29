@@ -7,6 +7,6 @@
 
 ### ¡Hola! 👋
 
-![Nagi Seishiro](https://media.tenor.com/your-gif-id.gif)
+![Nagi Seishiro](https://tenor.com/b035N.gif)
 
 Soy un entusiasta de *Blue Lock* y fan de Nagi Seishiro.
