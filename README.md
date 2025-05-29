@@ -15,4 +15,3 @@
 
 ![github toplang](https://github-readme-stats.vercel.app/api/top-langs/?username=ALBERTO9883&layout=compact&theme=chartreuse-dark)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ALBERTO9883&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
