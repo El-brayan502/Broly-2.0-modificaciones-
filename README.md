@@ -14,4 +14,3 @@
 
 
 
-![amo a este gato _3](https://user-images.githubusercontent.com/100887441/191080666-2134186d-f4fa-4b95-a3df-d00f27041eac.gif)
