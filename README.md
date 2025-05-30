@@ -1,4 +1,4 @@
-## 👤 Colaborador
+## 🐈✨️ INSPIRACIÓN 
 
 <table>
   <tr>
