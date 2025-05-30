@@ -36,7 +36,7 @@ Soy un entusiasta de *Blue Lock* y fan de Nagi Seishiro.
 
 ---
 
-#### **<img src="https://i.imgur.com/n1zo2wL.gif" width="30" height="30"/>  `Instalación manual por termux`**
+## 📦 Instalación
 > copie y peguen en termux uno por uno 
 ```bash
 termux-setup-storage
