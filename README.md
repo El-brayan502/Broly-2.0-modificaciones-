@@ -1,4 +1,4 @@
-## 🐈✨️ INSPIRACIÓN 
+## 🐈✨️ INSPIRACIÓN DEL PROYECTO 
 
 <table>
   <tr>
