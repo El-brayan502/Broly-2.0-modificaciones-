@@ -36,10 +36,29 @@ Soy un entusiasta de *Blue Lock* y fan de Nagi Seishiro.
 
 ---
 
-## 📦 Instalación
+#### **<img src="https://i.imgur.com/n1zo2wL.gif" width="30" height="30"/>  `Instalación manual por termux`**
+> copie y peguen en termux uno por uno 
+```bash
+termux-setup-storage
+```
 
 ```bash
-git clone https://github.com/tuusuario/NagiBotV2
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+```
+
+```bash
+git clone https://github.com/El-brayan502/NagiBotV2.git
+```
+
+```bash
 cd NagiBotV2
-npm install
-node index.js
+```
+
+```bash
+yarn install && npm install
+```
+
+```bash
+npm start
+```
+---------
