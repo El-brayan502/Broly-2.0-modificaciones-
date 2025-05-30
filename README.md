@@ -10,3 +10,36 @@
 ![Nagi Seishiro](https://n.uguu.se/VSrtsyrw.gif)
 
 Soy un entusiasta de *Blue Lock* y fan de Nagi Seishiro.
+
+# 🌀 NagiBotV2 — Bot de WhatsApp MultiDispositivo
+
+**NagiBotV2** es un bot de WhatsApp creado con [`@whiskeysockets/baileys`](https://github.com/WhiskeySockets/Baileys), basado en Node.js, diseñado para ser rápido, funcional y personalizable. 🧠
+
+---
+
+## 🚀 Características
+
+- ✅ Soporte para WhatsApp Multi-Dispositivo (MD)
+- 🤖 Comandos personalizables
+- 🔄 Reconexión automática
+- 📦 Fácil de alojar en servidores (Render, Railway, Replit, etc.)
+- 🎮 Base lista para añadir sistemas como mascotas virtuales, admins, música, etc.
+
+---
+
+## ⚙️ Requisitos
+
+- Node.js v18 o superior
+- Git
+- Cuenta de WhatsApp activa
+- Token de servidor si usarás hosting externo (opcional)
+
+---
+
+## 📦 Instalación
+
+```bash
+git clone https://github.com/tuusuario/NagiBotV2
+cd NagiBotV2
+npm install
+node index.js
