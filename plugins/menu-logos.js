@@ -1,122 +1,225 @@
-import fetch from 'node-fetch';
+import { promises } from 'fs'
+import { join } from 'path'
+import fetch from 'node-fetch'
+import { xpRange } from '../lib/levelling.js'
 
-const handler = async (m, { conn, usedPrefix }) => {
-  if (usedPrefix == 'a' || usedPrefix == 'A') return;
+let Styles = (text, style = 1) => {
+  let xStr = 'abcdefghijklmnopqrstuvwxyz1234567890'.split('');
+  let yStr = Object.freeze({
+    1: 'ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘqʀꜱᴛᴜᴠᴡxʏᴢ1234567890'
+  });
+  let replacer = [];
+  xStr.forEach((v, i) => replacer.push({
+    original: v,
+    convert: yStr[style].split('')[i]
+  }));
+  return text
+    .toLowerCase()
+    .split('')
+    .map(v => (replacer.find(x => x.original === v) || { convert: v }).convert)
+    .join('');
+};
 
+let tags = {
+  'juegos': ' JUEGOS ',
+  'main': ' INFO ',
+  'search': ' SEARCH ',
+  'anime': ' ANIME ',
+  'game': ' GAME ',
+  'serbot': ' SUB BOTS ',
+  'rpg': ' RPG ',
+  'rg': ' REGISTRO ',
+  'sticker': ' STICKER ',
+  'img': ' IMAGE ',
+  'group': ' GROUPS ',
+  'nable': ' ON / OFF ', 
+  'premium': ' PREMIUM ',
+  'downloader': ' DOWNLOAD ',
+  'tools': ' TOOLS ',
+  'fun': ' FUN ',
+  'nsfw': ' NSFW ', 
+  'owner': ' OWNER ', 
+};
+
+const defaultMenu = {
+  before:  `┏━┅═┅═━❏【﻿㞮 𝗡𝗔𝗚𝗜𝗕𝗢𝗧-𝗠𝗗㞮】
+│┏───┈ 
+│┆ ⫹⫺  _𝗜𝗡𝗙𝗢 - 𝗨𝗦𝗘𝗥_ ⫹⫺
+│└───────────────┈
+│✑ 𝙉𝙊𝙈𝘽𝙍𝙀     : %name
+│✑ 𝙀𝙓𝙋𝙀𝙍𝙄𝙀𝙉𝘾𝙄𝘼: %exp
+│✑ 𝙉𝙄𝙑𝙀𝙇      : %level
+└───────────────┈ 
+
+│┏─────┈
+│┆ ⫹⫺  _*INFO - BOT*_  ⫹⫺
+│└───────────────┈ 
+│✷ 𝙀𝙎𝙏𝘼𝘿𝙊     : Modo Público
+│✷ 𝘽𝘼𝙄𝙇𝙀𝙔𝙎      : Baileys MD
+│✷ 𝘼𝘾𝙏𝙄𝙑𝙊     : %muptime
+│✷ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎   : %totalreg
+└───────────────┈
+
+%readmore
+        𝙉𝘼𝙂𝙄 𝙎𝙄𝙈𝙋𝙇𝙀-𝘽𝙊𝙏 
+𝘽𝙊𝙏 𝙓 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋
+`.trimStart(),
+header: '╭─〔 *✦  %category  ✦* 〕─╮',
+body:   '│ ⤷ %cmd %islimit %isPremium',
+footer: '╰───────────────╯',
+  after: `© ${textbot}`,
+};
+
+let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
-    const videoUrl = "https://qu.ax/ypJww.mp4";
-    const d = new Date(new Date + 3600000);
-    const locale = 'es-ES';
-    const week = d.toLocaleDateString(locale, { weekday: 'long' });
-    const date = d.toLocaleDateString(locale, { day: '2-digit', month: '2-digit', year: 'numeric' });
-
-    await conn.sendMessage(m.chat, { react: { text: '🍇', key: m.key } });
-
-    const str = `┈──────────────────────⏣
-           ⏤͟͟͞͞ᵡ    *M E N U   L O G O S*   ᵡ͟͟͞͞⏤
-┈──────────────────────⏣
-   ⏣ • _!advancedglow_
-   ⏣ • _!typography_
-   ⏣ • _!pixelglitch_
-   ⏣ • _!glitch_
-   ⏣ • _!neonglitch_
-   ⏣ • _!flag_
-   ⏣ • _!flag3d_
-   ⏣ • _!deleting_
-   ⏣ • _!blackpink_
-   ⏣ • _!glowing_
-   ⏣ • _!underwater_
-   ⏣ • _!logomaker_
-   ⏣ • _!cartoon_
-   ⏣ • _!papercut_
-   ⏣ • _!watercolor_
-   ⏣ • _!affectclouds_
-   ⏣ • _!blackpinklogo_
-   ⏣ • _!gradient_
-   ⏣ • _!summerbeach_
-   ⏣ • _!luxurygold_
-   ⏣ • _!multicoloredneon_
-   ⏣ • _!sandsummer_
-   ⏣ • _!galaxywallpaper_
-   ⏣ • _!1917_
-   ⏣ • _!markingneon_
-   ⏣ • _!royal_
-   ⏣ • _!freecreate_
-   ⏣ • _!galaxy_
-   ⏣ • _!darkgreen_
-   ⏣ • _!lighteffects_
-   ⏣ • _!dragonball_
-   ⏣ • _!neondevil_
-   ⏣ • _!frozen_
-   ⏣ • _!wooden3d_
-   ⏣ • _!metal3d_
-   ⏣ • _!ligatures_
-   ⏣ • _!3druby_
-   ⏣ • _!sunset_
-   ⏣ • _!cemetery_
-   ⏣ • _!halloween_
-   ⏣ • _!horror_
-   ⏣ • _!blood_
-   ⏣ • _!joker_
-   ⏣ • _!clouds glitchtext_
-   ⏣ • _!writetext_
-   ⏣ • _!typographytext_
-   ⏣ • _!clouds glitchtext_
-   ⏣ • _!amongustext_
-   ⏣ • _!rainytext_
-   ⏣ • _!graffititext_
-   ⏣ • _!colorfulltext_
-   ⏣ • _!equalizertext_
-   ⏣ • _!narutotext_
-   ⏣ • _!angeltxt_
-   ⏣ • _!starlight_`;
-
-    if (m.isGroup) {
-      const fkontak2 = {
-        'key': {
-          'participants': '0@s.whatsapp.net',
-          'remoteJid': 'status@broadcast',
-          'fromMe': false,
-          'id': 'Halo'
-        },
-        'message': {
-          'contactMessage': {
-            'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
-          }
-        },
-        'participant': '0@s.whatsapp.net'
-      };
-      conn.sendMessage(m.chat, { video: { url: videoUrl }, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net') }, { quoted: m });
-    } else {
-      const fkontak2 = {
-        'key': {
-          'participants': '0@s.whatsapp.net',
-          'remoteJid': 'status@broadcast',
-          'fromMe': false,
-          'id': 'Halo'
-        },
-        'message': {
-          'contactMessage': {
-            'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
-          }
-        },
-        'participant': '0@s.whatsapp.net'
-      };
-      conn.sendMessage(m.chat, { video: { url: videoUrl }, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net') }, { quoted: fkontak2 });
+    let tag = `@${m.sender.split("@")[0]}`
+    let mode = global.opts["self"] ? "Privado" : "Publico"
+    let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(() => ({}))) || {}
+    let { exp, limit, level } = global.db.data.users[m.sender]
+    let { min, xp, max } = xpRange(level, global.multiplier)
+    let name = await conn.getName(m.sender)
+    let d = new Date(new Date + 3600000)
+    let locale = 'es'
+    let week = d.toLocaleDateString(locale, { weekday: 'long' })
+    let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
+    let time = d.toLocaleTimeString(locale, { hour: 'numeric', minute: 'numeric', second: 'numeric' })
+    let _uptime = process.uptime() * 1000
+    let _muptime
+    if (process.send) {
+      process.send('uptime')
+      _muptime = await new Promise(resolve => {
+        process.once('message', resolve)
+        setTimeout(resolve, 1000)
+      }) * 1000
     }
-  } catch {
-    conn.reply(m.chat, '*🍇 Error Al Enviar!.*', m);
+    let muptime = clockString(_muptime)
+    let uptime = clockString(_uptime)
+    let totalreg = Object.keys(global.db.data.users).length
+    let help = Object.values(global.plugins)
+      .filter(plugin => !plugin.disabled)
+      .map(plugin => ({
+          help: Array.isArray(plugin.tags) ? plugin.help : [plugin.help],
+          tags: Array.isArray(plugin.tags) ? plugin.tags : [plugin.tags],
+          prefix: 'customPrefix' in plugin,
+          limit: plugin.limit,
+          premium: plugin.premium,
+          enabled: !plugin.disabled,
+        })
+      );
+
+    for (let plugin of help) {
+      if (plugin && 'tags' in plugin) {
+        for (let t of plugin.tags) {
+          if (!(t in tags) && t) tags[t] = t;
+        }
+      }
+    }
+
+    let before = conn.menu?.before || defaultMenu.before;
+    let header = conn.menu?.header || defaultMenu.header;
+    let body = conn.menu?.body || defaultMenu.body;
+    let footer = conn.menu?.footer || defaultMenu.footer;
+    let after = conn.menu?.after || defaultMenu.after;
+
+    let _text = [
+      before,
+      ...Object.keys(tags).map(t => {
+        return header.replace(/%category/g, tags[t]) + '\n' + [
+          ...help
+            .filter(menu => menu.tags && menu.tags.includes(t) && menu.help)
+            .map(menu => menu.help
+              .map(h => body
+                .replace(/%cmd/g, menu.prefix ? h : '%p' + h)
+                .replace(/%islimit/g, menu.limit ? '◜⭐◞' : '')
+                .replace(/%isPremium/g, menu.premium ? '◜🪪◞' : '')
+                .trim())
+              .join('\n')
+            ),
+          footer
+        ].join('\n')
+      }),
+      after
+    ].join('\n');
+
+    let textFinal = typeof conn.menu === 'string' ? conn.menu : _text;
+    let replace = {
+      "%": "%",
+      p: _p,
+      uptime,
+      muptime,
+      me: conn.getName(conn.user.jid),
+      npmname: _package.name,
+      npmdesc: _package.description,
+      version: _package.version,
+      exp: exp - min,
+      maxexp: xp,
+      totalexp: exp,
+      xp4levelup: max - exp,
+      github: _package.homepage ? _package.homepage.url || _package.homepage : "[unknown github url]",
+      mode,
+      _p,
+      tag,
+      name,
+      level,
+      limit,
+      totalreg,
+      readmore: readMore
+    };
+
+    textFinal = textFinal.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name]);
+
+    // Agregamos la indicación y los botones al menú
+    let menuText = textFinal.trim() + "\n\n🔹 Selecciona una opción:";
+
+    const buttons = [
+      {
+        buttonId: `${_p}owner`,
+        buttonText: { displayText: "👑 Ｃ Ｒ Ｅ Ａ Ｄ Ｏ Ｒ" },
+        type: 1,
+      },
+      {
+        buttonId: `${_p}code`,
+        buttonText: { displayText: "🕹 Ｓ Ｅ Ｒ Ｂ Ｏ Ｔ" },
+        type: 1,
+      },      {
+        buttonId: `${_p}grupos`,
+        buttonText: { displayText: "🌪 Ｇ Ｒ Ｕ Ｐ Ｏ Ｓ" },
+        type: 1,
+      },
+    ];
+
+    let img = 'https://files.catbox.moe/k0heyh.jpg';
+    await m.react('⚽️');
+
+    await conn.sendMessage(
+      m.chat,
+      {
+        image: { url: img },
+        caption: menuText,
+        buttons: buttons,
+        footer: "WHATSAPP BOT X BRAYAN MOSCOSO",
+        viewOnce: true,
+      },
+      { quoted: m }
+    );
+  } catch (e) {
+    conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m);
+    throw e;
   }
 };
 
-handler.command = ['menulogos', 'logotiposmenu', 'menulogotipos', 'menulog'];
-handler.register = false;
-
+handler.help = ['allmenu'];
+handler.tags = ['main'];
+handler.command = ['allmenu', 'menucompleto', 'menúcompleto', 'menú', 'menu'];
+handler.register = true;
 export default handler;
 
+const more = String.fromCharCode(8206);
+const readMore = more.repeat(4001);
+
 function clockString(ms) {
-  const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
-  const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
-  const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
+  return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':');
 }
