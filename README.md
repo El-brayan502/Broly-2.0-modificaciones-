@@ -35,7 +35,7 @@
 
 ---
 
-<h2 align="center">💕 Valeria, tú eres mi todo 💕</h2>
+<h2 align="center">💕 clarita, tú eres mi todo 💕</h2>
 
 <p align="center">
   Gracias por acompañarme en cada línea de código, en cada error y en cada logro.<br>
