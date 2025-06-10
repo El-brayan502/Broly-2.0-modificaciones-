@@ -1,47 +1,45 @@
-<h1 align="center">¡Hola! 👋 Soy FANTOM330</h1>
+<h1 align="center">✨ FANTOM UWU ✨</h1>
+<p align="center">¡Bienvenido a mi perfil! Soy un desarrollador apasionado por los bots y la automatización 💻💚</p>
+
+---
+
+### 📱 Contacto
+- 💬 Escríbeme a mi WhatsApp: [FANTOM](https://wa.me/50370779862)
+- 🧠 Proyectos e ideas locas en constante evolución
+
+---
+
+### 🚀 Proyectos Destacados
+
+| Proyecto        | Descripción                                                   | Repositorio |
+|----------------|---------------------------------------------------------------|-------------|
+| **Duolingo-AI** | Bot de WhatsApp educativo con inteligencia artificial         | [🔗 Ver](https://github.com/El-brayan502/Duolingo-AI) |
+| **NagiBotV2**   | Bot WhatsApp multi-dispositivo con sistema de QR o código     | [🔗 Ver](https://github.com/El-brayan502/NagiBotv2) |
+| **FANTOM UWU**  | Perfil y configuraciones personales en GitHub                 | [🔗 Ver](https://github.com/El-brayan502) |
+
+---
+
+### 💻 Tecnologías que uso
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=fff)
+![Baileys](https://img.shields.io/badge/-Baileys-00BFA6?style=flat&logo=whatsapp&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+
+---
+
+### 📊 Estadísticas
+
+![FANTOM UWU's GitHub Stats](https://github-readme-stats.vercel.app/api?username=El-brayan502&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=El-brayan502&layout=compact&theme=radical)
+
+---
+
+### 🌈 Frase que me representa:
+> *"No hay límites para lo que puedes crear, si te atreves a intentarlo."*
+
+---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/SUenXNiD9sRoc/giphy.gif" width="200" />
+  <img src="https://media.tenor.com/OyUJRxhn_8cAAAAC/nyan-cat.gif" width="250"/>
 </p>
-
-<p align="center">
-  <i>Bienvenid@ a mi mundo de código, diversión y café ☕</i>
-</p>
-
----
-
-### 📱 Contáctame
-
-> Aquí te dejo mi número por si quieres escribirme 😉
-
-[![WhatsApp](https://img.shields.io/badge/💬%20WhatsApp-fantom-green?style=for-the-badge&logo=whatsapp)](https://wa.me/521XXXXXXXXXX)
-
----
-
-### 🧠 Sobre mí
-
-- 🔭 Actualmente estoy trabajando en proyectos con **JavaScript**, **bots de WhatsApp**, y algo de **Python**.
-- 💻 Me encanta automatizar cosas, crear bots y hacer que la terminal sea divertida.
-- 🧩 Fan de los proyectos open source y del Nyan Cat 🐱‍🚀🌈.
-- 🛠️ Siempre aprendiendo cosas nuevas.
-
----
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=El-brayan502&show_icons=true&theme=radical" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=El-brayan502&layout=compact&theme=radical" width="49%" />
-</p>
-
----
-
-### 🧪 Lenguajes que uso
-
-```txt
-🟨 JavaScript       ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 91.17%
-🔵 TypeScript       ▓▓                5.59%
-🐍 Python           ▓                 2.97%
-🟢 Shell            ░                 0.25%
-🔴 HTML             ░                 0.02%
-⚫ Dockerfile        ░                 0.01%
