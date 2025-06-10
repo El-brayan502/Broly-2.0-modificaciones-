@@ -22,7 +22,7 @@
 <h1 align="center">🌸 Quiero a mi Novia 🌸</h1>
 
 <p align="center">
-  <img src="https://media.tenor.com/XLdKy2dQbZ4AAAAC/love-anime.gif" width="300"/>
+  <img src="https://n.uguu.se/RCMrrruX.gif" width="300"/>
 </p>
 
 ---
