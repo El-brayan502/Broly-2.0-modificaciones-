@@ -49,6 +49,6 @@
 ---
 
 <p align="center">
-  <strong>📝 Brayam para Valeria</strong><br>
+  <strong>📝 Brayam para clarita</strong><br>
   <em>Siempre tuyo 💌</em>
 </p>
