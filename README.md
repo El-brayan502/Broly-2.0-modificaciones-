@@ -16,7 +16,7 @@
 ---
 
 <p align="center">
-  💌 *Brayam x Valeria* 💌
+  💌 *Brayam x Clara* 💌
 </p>
 
 <h1 align="center">🌸 Quiero a mi Novia 🌸</h1>
