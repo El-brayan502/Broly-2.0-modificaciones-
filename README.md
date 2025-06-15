@@ -17,3 +17,14 @@
     <img src="https://img.shields.io/badge/🤝%20thecarlos19-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
+
+
+
+<p align="center">
+  <a href="https://github.com/El-brayan502/NagiBotV2#🚀-instalación-rápida">
+    <img src="https://img.shields.io/badge/⚙️%20Instalar%20Bot-blue?style=for-the-badge&logo=npm&logoColor=white" />
+  </a>
+  <a href="https://github.com/El-brayan502/NagiBotV2#✨-características-principales">
+    <img src="https://img.shields.io/badge/📖%20Ver%20Comandos-purple?style=for-the-badge&logo=bookstack&logoColor=white" />
+  </a>
+</p>
