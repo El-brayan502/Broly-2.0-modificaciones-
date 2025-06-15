@@ -73,3 +73,10 @@
 <a href="https://github.com/usuario/repositorio/issues" target="_blank" style="display:inline-block; background:#28a745; color:white; padding:10px 20px; border-radius:6px; text-decoration:none; font-weight:bold;">
   Reportar un Issue
 </a>
+
+_____
+
+
+[➡️ Ver proyecto](https://github.com/usuario/repositorio)
+[📥 Descargar release](https://github.com/usuario/repositorio/releases)
+[📚 Leer documentación](https://usuario.github.io/repositorio)
