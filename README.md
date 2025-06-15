@@ -43,3 +43,10 @@
     <img src="https://img.shields.io/badge/⭐%20Dale%20una%20estrella-000000?style=for-the-badge&logo=github&logoColor=yellow" />
   </a>
 </p>
+
+
+
+![Build Status](https://img.shields.io/github/actions/workflow/status/usuario/repositorio/ci.yml)
+![Version](https://img.shields.io/github/package-json/v/usuario/repositorio)
+![License](https://img.shields.io/github/license/usuario/repositorio)
+![Stars](https://img.shields.io/github/stars/usuario/repositorio?style=social)
