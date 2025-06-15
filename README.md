@@ -56,3 +56,8 @@
 [![Website](https://img.shields.io/badge/Website-Visit-blue?logo=google-chrome)](https://tusitio.com)
 [![Documentation](https://img.shields.io/badge/Docs-Read-green?logo=read-the-docs)](https://tusitio.com/docs)
 [![Download](https://img.shields.io/badge/Download-latest-orange?logo=download)](https://github.com/usuario/repositorio/releases)
+
+
+[![Twitter](https://img.shields.io/badge/Twitter-@usuario-1DA1F2?logo=twitter&style=flat-square)](https://twitter.com/usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Usuario-blue?logo=linkedin&style=flat-square)](https://linkedin.com/in/usuario)
+[![YouTube](https://img.shields.io/badge/YouTube-Canal-red?logo=youtube&style=flat-square)](https://youtube.com/c/usuario)
