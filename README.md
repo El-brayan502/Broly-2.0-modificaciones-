@@ -64,3 +64,12 @@
 [![Twitter](https://img.shields.io/badge/Twitter-@usuario-1DA1F2?logo=twitter&style=flat-square)](https://twitter.com/usuario)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Usuario-blue?logo=linkedin&style=flat-square)](https://linkedin.com/in/usuario)
 [![YouTube](https://img.shields.io/badge/YouTube-Canal-red?logo=youtube&style=flat-square)](https://youtube.com/c/usuario)
+
+
+<a href="https://github.com/usuario/repositorio" target="_blank" style="display:inline-block; background:#24292e; color:white; padding:10px 20px; border-radius:6px; text-decoration:none; font-weight:bold;">
+  ⭐ Star en GitHub
+</a>
+
+<a href="https://github.com/usuario/repositorio/issues" target="_blank" style="display:inline-block; background:#28a745; color:white; padding:10px 20px; border-radius:6px; text-decoration:none; font-weight:bold;">
+  Reportar un Issue
+</a>
