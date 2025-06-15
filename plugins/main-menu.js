@@ -4,53 +4,44 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'main': 'Info Bot',
-  'buscador': 'Buscador',
-  'fun': 'Juegos',
-  'rpg': 'Rpg',
-  'rg': 'Registror',
-  'xp': 'Exp',
-  'sticker': 'Stickers',
-  'anime': 'Animes',
-  'database': 'Database',
-  'fix': 'Fix Mensaje',
-  'grupo': 'Grupos',
-  'nable': 'On / Off',
-  'descargas': 'Descargas',
-  'tools': 'Herramientas',
-  'info': 'Información',
-  'nsfw': 'Nsfw',
-  'owner': 'Creador',
-  'mods': 'Staff',
-  'audio': 'Audios',
-  'ai': 'Ia',
-  'transformador': 'Convertidores'
+  'juegos': ' JUEGOS ',
+  'main': ' INFO ',
+  'search': ' SEARCH ',
+  'anime': ' ANIME ',
+  'game': ' GAME ',
+  'serbot': ' SUB BOTS ',
+  'rpg': ' RPG ',
+  'rg': ' REGISTRO ',
+  'sticker': ' STICKER ',
+  'img': ' IMAGE ',
+  'group': ' GROUPS ',
+  'nable': ' ON / OFF ', 
+  'premium': ' PREMIUM ',
+  'downloader': ' DOWNLOAD ',
+  'tools': ' TOOLS ',
+  'fun': ' FUN ',
+  'nsfw': ' NSFW ', 
+  'owner': ' OWNER ', 
 };
 
 const defaultMenu = {
-  before: `Hola %name ${ucapan()} , soy duolingo-ai 
-  
-  
-  *\`乂  I N F O  -  B O T\`*
+  before: `--------[ *I N F O - U S E R* ]----------
 
-┌  ◦ *Cʀᴇᴀᴅᴏʀ:*  fantom330
-│  ◦ *Mᴏᴅᴏ:* Público
-│  ◦ *Bᴀɪʟᴇʏs:* Multi Device
-│  ◦ *Tɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* %muptime
-└  ◦ *Usᴜᴀʀɪᴏs:* %totalreg
+▧ Nᴏᴍʙʀᴇ : %name
+▧ Exᴘᴇʀɪᴇɴᴄɪᴀ: %exp
+▧ Nɪᴠᴇʟ : %level
 
-  *\`乂  I N F O  -  U S U A R I O\`*
-  
-┌  ◦ *Cʟɪᴇɴᴛᴇ:* %name
-│  ◦ *Exᴘ:* %exp
-│  ◦ *Nɪᴠᴇʟ:* %level
-└  ◦ *Rᴀɴɢᴏ:* %role
-   
-*– L I S T A   D E   C O M A N D O S*\n
+--------[ *I N F O - B OT Z* ]----------
+
+▧ Esᴛᴀᴅᴏ : Modo Público
+▧ Bᴀɪʟᴇʏs : Baileys MD
+▧ Aᴄᴛɪᴠᴏ : %muptime
+▧ Usᴜᴀʀɪᴏs : %totalreg
+%readmore
 `.trimStart(),
-  header: '╭── ◇───────◇───────◇*\n┊ ‹‹ *Category* :: *%category*\n╰───ੈ✩‧₊˚୨୧ ┈┈┈┈┈┈┈┈┈┈┈┈ ୨୧ ༘♡ ⋆｡˚',
-  body: '│  𑶩͜✿︩︪ᩙ 🪹ൄ ┊ %cmd\n',
-  footer: '╰─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒\n',
+    header: '┏━━━━━━━━━━━━━━━━\n┃%category\n┣━━━━━━━━━━━━━━━━',
+  body: '┃ %cmd',
+  footer: '┗━━━━━━━━━━━━━━━━',
   after: `> ${dev}`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -150,7 +141,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
+const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/jDLsx.jpg')
 
 await conn.sendMessage(m.chat, { 
   footer: `2025 ${botname}`,
@@ -171,14 +162,15 @@ await conn.sendMessage(m.chat, {
     externalAdReply: { 
       title: `${titulowm2}`,
       body: `${dev}`,
-      thumbnailUrl: `https://qu.ax/jkchN.jpg`,
-      sourceUrl: `https://www.instagram.com/xrljose?igsh=MWt0a2EyMXk2aXdpag==`,
+      thumbnailUrl: `https://qu.ax/LolsE.jpg`,
+      sourceUrl: `https://github.com/El-brayan502/NagiBotV2.git`,
       mediaType: 1,
       renderLargerThumbnail: true
     }
   }
 }, { quoted: fkontak });
-m.react('🍓');
+m.react('⚽️');
+m.react('✨️');     
 
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
