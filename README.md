@@ -1,29 +1,33 @@
-<!-- Banner GIF -->
-<p align="center">
-  <img src="https://files.catbox.moe/r26utu.gif" width="100%" alt="NagiBotV2 Banner" />
-</p>
+<div align="center">
 
-<h1 align="center">🌟 NagiBotV2 - WhatsApp Bot</h1>
+<img src="https://files.catbox.moe/r26utu.gif" width="400"/>
 
-<p align="center">
-  <b>Un bot poderoso, rápido y personalizable para WhatsApp Multi-Dispositivo</b><br>
-  Creado por <a href="https://github.com/El-brayan502">@El-brayan502</a> con soporte de <a href="https://github.com/thecarlos19">@thecarlos19</a>
-</p>
+# ⚡ NagiBotV2
+> Un bot de WhatsApp diseñado para dominar tus grupos.
+
+</div>
 
 ---
 
-## 🚀 Funcionalidades Destacadas
+### 🧬 ¿Qué es NagiBotV2?
 
-- 🤖 Soporte WhatsApp Multi-Device
-- 🎮 Juegos interactivos (4vs4, adivina, slots, economía...)
-- 🧠 Chat IA con respuestas inteligentes
-- 📥 Descargas: YouTube, TikTok, Facebook, etc.
-- 🛡️ Herramientas para grupos (bienvenida, anti-link, autoadmin)
-- 💾 Sistema de niveles, usuarios, registro y más
+Un bot multi-dispositivo para WhatsApp, con comandos rápidos, respuestas IA, juegos, administración de grupos y sistema de usuarios.  
+Está optimizado para velocidad, rendimiento y personalización.
 
 ---
 
-## 🛠️ Instalación Rápida
+### 🧠 Funciones clave
+
+- 📌 Sistema de registro y XP
+- 🧠 Respuestas inteligentes (IA)
+- 🎮 Juegos como slots, 4vs4, economía
+- 📥 Descargas de TikTok, YouTube, Spotify
+- 🛡️ Anti-links, autoadmin y herramientas grupales
+- 🎨 Soporte para menús personalizados (GIF/video)
+
+---
+
+### ⚙️ Instalación rápida
 
 ```bash
 git clone https://github.com/El-brayan502/NagiBotV2
