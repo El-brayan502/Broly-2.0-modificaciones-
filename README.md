@@ -28,3 +28,11 @@
     <img src="https://img.shields.io/badge/📖%20Ver%20Comandos-purple?style=for-the-badge&logo=bookstack&logoColor=white" />
   </a>
 </p>
+
+
+
+<p align="center">
+  <a href="https://github.com/El-brayan502/NagiBotV2/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Dale%20una%20estrella-000000?style=for-the-badge&logo=github&logoColor=yellow" />
+  </a>
+</p>
