@@ -36,3 +36,10 @@
     <img src="https://img.shields.io/badge/⭐%20Dale%20una%20estrella-000000?style=for-the-badge&logo=github&logoColor=yellow" />
   </a>
 </p>
+
+
+<p align="center">
+  <a href="https://github.com/El-brayan502/NagiBotV2/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Dale%20una%20estrella-000000?style=for-the-badge&logo=github&logoColor=yellow" />
+  </a>
+</p>
