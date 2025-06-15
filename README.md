@@ -50,3 +50,9 @@
 ![Version](https://img.shields.io/github/package-json/v/usuario/repositorio)
 ![License](https://img.shields.io/github/license/usuario/repositorio)
 ![Stars](https://img.shields.io/github/stars/usuario/repositorio?style=social)
+
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/usuario/repositorio)
+[![Website](https://img.shields.io/badge/Website-Visit-blue?logo=google-chrome)](https://tusitio.com)
+[![Documentation](https://img.shields.io/badge/Docs-Read-green?logo=read-the-docs)](https://tusitio.com/docs)
+[![Download](https://img.shields.io/badge/Download-latest-orange?logo=download)](https://github.com/usuario/repositorio/releases)
