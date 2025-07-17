@@ -77,9 +77,8 @@
 ----
 
 ### Colaboradores implicados
-<a href="https://github.com/GataNina-Li/GataBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=GataNina-Li/GataBot-MD" /> 
-</a>
+[![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino) 
+[![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino) 
 
 ### Gesto de agradecimiento 
 [![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino) 
