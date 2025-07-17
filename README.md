@@ -77,8 +77,7 @@
 ----
 
 ### Colaboradores implicados
-[![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino) 
-[![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino) 
+[![TheShadowBrokers1](https://github.com/Elder504.png?size=60)](https://github.com/Elder504) 
 
 ### Gesto de agradecimiento 
 [![TheShadowBrokers1](https://github.com/El-brayan502.png?size=60)](https://github.com/El-brayan502) 
