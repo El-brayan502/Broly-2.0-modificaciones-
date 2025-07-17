@@ -80,3 +80,14 @@ _____
 [➡️ Ver proyecto](https://github.com/usuario/repositorio)
 [📥 Descargar release](https://github.com/usuario/repositorio/releases)
 [📚 Leer documentación](https://usuario.github.io/repositorio)
+
+### Colaboradores implicados
+<a href="https://github.com/GataNina-Li/GataBot-MD/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=GataNina-Li/GataBot-MD" /> 
+</a>
+
+### Gesto de agradecimiento 
+[![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino) 
+
+### Autora del Proyecto
+[![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) 
